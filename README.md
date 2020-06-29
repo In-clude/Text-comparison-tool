@@ -3,4 +3,5 @@
 ### Programming in E(易语言) http://www.dywt.com.cn/
 
 ![IMAGE](https://github.com/In-clude/Text-comparison-tool/blob/master/image/image0.jpg?raw=true)
+### Attention Read line by line
 ![IMAGE](https://github.com/In-clude/Text-comparison-tool/blob/master/image/logic.gif?raw=true)
