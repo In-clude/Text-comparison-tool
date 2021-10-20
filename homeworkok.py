@@ -1,12 +1,12 @@
 from os import listdir
 
-with open("./19计科一班.txt", "r", encoding='utf-8') as f:
+with open("./21人工智能一班.txt", "r", encoding='utf-8') as f:
     data = f.readlines()
 f.close()
 for i in range(len(data)):
     data[i] = data[i].strip('\n')
 
-data.append("19jk1")
+data.append("21ai1")
 print(data)
 
 dst_path = 'C:\\Users\\真\\Desktop\\java\\java2'
