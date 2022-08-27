@@ -1,10 +1,6 @@
 import os
 import sys
 
-name_dic = []
-submit_name = []
-path = "D:\\tx"  # 作业文件夹，替换成你自己的作业文件夹
-name_path = "D:\\19计科一班.txt" #同学名单文件夹，同上
 def formate_dir(name_dic, dir_name):  # 格式化文件名
     dir_name = dir_name.replace(' ','') #将提交上的作业的奇怪的分隔符去掉
     dir_name = dir_name.replace('+','')
@@ -24,6 +20,12 @@ def find_not_submit(name_dic, submit_name): #看看哪个小同学没有交作�
         if name  not in submit_name:
             no_submmit.append(name)
     return no_submmit
+
+name_dic = []
+submit_name = []
+path = "D:\\tx"  # 作业文件夹，替换成你自己的作业文件夹
+name_path = "D:\\19计科一班.txt" #同学名单文件夹，同上
+
 
 fileList = os.listdir(path)
 with open(name_path ,'r', encoding='UTF-8') as lines: #编码可能要根据你的系统改变一般这样写没错
