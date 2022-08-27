@@ -18,5 +18,5 @@ Programming in E(易语言) http://www.dywt.com.cn/
 
 使用前先安装python (https://www.python.org/)
 
-[Download](https://github.com/In-clude/Text-comparison-tool/blob/master/nohomework.py)
+[Download](https://github.com/In-clude/Text-comparison-tool/blob/master/nohomework_simple.py)
 
