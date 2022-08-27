@@ -25,8 +25,6 @@ name_dic = []
 submit_name = []
 path = "D:\\tx"  # 作业文件夹，替换成你自己的作业文件夹
 name_path = "D:\\19计科一班.txt" #同学名单文件夹，同上
-
-
 fileList = os.listdir(path)
 with open(name_path ,'r', encoding='UTF-8') as lines: #编码可能要根据你的系统改变一般这样写没错
     for line in lines:
